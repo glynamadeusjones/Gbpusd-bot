@@ -12,8 +12,8 @@ LON = ZoneInfo("Europe/London")
 
 # --------- Bootstrapped config (ENV=live) ----------
 DEF_CFG = """[OANDA]
-ACCOUNT_ID = 001-004-1305725-001
-API_TOKEN  = 1f2ce9aa375f6b73a822ccc21198d29b-a5a9aff1d4e999d0be871d9c0d2243af
+ACCOUNT_ID = account_id
+API_TOKEN  = api_token
 ENV        = live        ; live|practice
 
 [STRATEGY]
